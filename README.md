@@ -1,2 +1,2 @@
 # vigenere
-A Vigenere cipher implementation in C.
+This is my Vigenere cipher implementation. There are many somewhat like it, but this one is mine...
