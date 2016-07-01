@@ -6,7 +6,7 @@ int main(void)
     printf("Enter message for encryption: \n");
     char p[50];
     fgets(p, 50, stdin);
-    printf("Select keyword  (no caps): \n");
+    printf("Select keyword (no caps): \n");
     char key[15];
     fgets(key, 15, stdin);
     int i, n, j;
