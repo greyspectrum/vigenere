@@ -14,10 +14,6 @@ int main(void)
         {
             if(p[i] <= 'a' && p[i] >= 'z')
                 printf("%c", (((p[i] - 'a') + (key[j] - 'a' ) %26) + 'a'));
-            if(p[i] <= 'a' && p[i] >= 'z')
-                printf("%c", (((p[i] - 'a') + (key[j] - 'a' ) %26) + 'a'));
-            else if(p[i] >= 'a' && p[i] <= 'z')
-                printf("%c", (((p[i] - 'a') + (key[j] - 'a') %26) + 'a'));
             else if(p[i] >= 'a' && p[i] <= 'z')
                 printf("%c", (((p[i] - 'a') + (key[j] - 'a') %26) + 'a'));
             else
